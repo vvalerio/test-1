@@ -984,7 +984,8 @@
         ];
         hydra:mapping[ a hydra:IriTemplateMapping;
           hydra:variable "bbox"^^xsd:string;
-          rdfs:range "xsd:bbox";
+          #rdfs:range "xsd:bbox";
+          rdfs:range "xsd:string";
           rdfs:label "Bounding box";
           hydra:required "false"^^xsd:boolean;
         ];
@@ -1042,7 +1043,8 @@
         ];
         hydra:mapping[ a hydra:IriTemplateMapping;
           hydra:variable "bbox"^^xsd:string;
-          rdfs:range "xsd:bbox";
+          #rdfs:range "xsd:bbox";
+          rdfs:range "xsd:string";
           rdfs:label "Bounding box";
           hydra:required "false"^^xsd:boolean;
         ];
@@ -1100,7 +1102,8 @@
         ];
         hydra:mapping[ a hydra:IriTemplateMapping;
           hydra:variable "bbox"^^xsd:string;
-          rdfs:range "xsd:bbox";
+          #rdfs:range "xsd:bbox";
+          rdfs:range "xsd:string";
           rdfs:label "Bounding box";
           hydra:required "false"^^xsd:boolean;
         ];
@@ -1158,7 +1161,8 @@
         ];
         hydra:mapping[ a hydra:IriTemplateMapping;
           hydra:variable "bbox"^^xsd:string;
-          rdfs:range "xsd:bbox";
+          #rdfs:range "xsd:bbox";
+          rdfs:range "xsd:string";
           rdfs:label "Bounding box";
           hydra:required "false"^^xsd:boolean;
         ];
@@ -1216,7 +1220,8 @@
         ];
         hydra:mapping[ a hydra:IriTemplateMapping;
           hydra:variable "bbox"^^xsd:string;
-          rdfs:range "xsd:bbox";
+          #rdfs:range "xsd:bbox";
+          rdfs:range "xsd:string";
           rdfs:label "Bounding box";
           hydra:required "false"^^xsd:boolean;
         ];
@@ -1274,7 +1279,8 @@
         ];
         hydra:mapping[ a hydra:IriTemplateMapping;
           hydra:variable "bbox"^^xsd:string;
-          rdfs:range "xsd:bbox";
+          #rdfs:range "xsd:bbox";
+          rdfs:range "xsd:string";
           rdfs:label "Bounding box";
           hydra:required "false"^^xsd:boolean;
         ];
@@ -1332,7 +1338,8 @@
         ];
         hydra:mapping[ a hydra:IriTemplateMapping;
           hydra:variable "bbox"^^xsd:string;
-          rdfs:range "xsd:bbox";
+          #rdfs:range "xsd:bbox";
+          rdfs:range "xsd:string";
           rdfs:label "Bounding box";
           hydra:required "false"^^xsd:boolean;
         ];
@@ -1390,7 +1397,8 @@
         ];
         hydra:mapping[ a hydra:IriTemplateMapping;
           hydra:variable "bbox"^^xsd:string;
-          rdfs:range "xsd:bbox";
+          #rdfs:range "xsd:bbox";
+          rdfs:range "xsd:string";
           rdfs:label "Bounding box";
           hydra:required "false"^^xsd:boolean;
         ];
