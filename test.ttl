@@ -692,7 +692,7 @@
   dct:spatial [ a dct:Location;
     locn:geometry "POLYGON((-180 -90,-180 90,180 90,180 -90,-180 -90)"^^gsp:wktLiteral;
   ];
-  hydra:supportedOperation <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/WRAPPED_INTERFEROGRAM/Operation>;
+  hydra:supportedOperation <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/WRAPPED_INTERFEROGRAM/Search>;
   dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
   owl:versionInfo "1.1";
   schema:keywords "Remote Sensing", "Interferometry", "DInSAR", "interferogram", "phase", "fringes", "SAR", "InSAR", "wrapped", "LOS", "deformation", "displacement", "map", "ascending", "descending", "range change";
@@ -724,7 +724,7 @@
   dct:spatial [ a dct:Location;
     locn:geometry "POLYGON(-180 -90,-180 90,180 90,180 -90,-180 -90)"^^gsp:wktLiteral;
   ];
-  hydra:supportedOperation <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/UNWRAPPED_INTERFEROGRAM/Operation>;
+  hydra:supportedOperation <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/UNWRAPPED_INTERFEROGRAM/Search>;
   dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
   owl:versionInfo "1.1";
   schema:keywords "Remote Sensing", "Interferometry", "DInSAR", "interferogram", "phase", "SAR", "InSAR", "unwrapped", "LOS", "deformation", "displacement", "map", "ascending", "descending", "range change";
@@ -756,7 +756,7 @@
   dct:spatial [ a dct:Location;
     locn:geometry "POLYGON(-180 -90,-180 90,180 90,180 -90,-180 -90)"^^gsp:wktLiteral;
   ];
-  hydra:supportedOperation <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/LOS_DISPLACEMENT_TIMESERIES/Operation>;
+  hydra:supportedOperation <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/LOS_DISPLACEMENT_TIMESERIES/Search>;
   dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
   owl:versionInfo "1.1";
   schema:keywords "Remote Sensing", "Interferometry", "DInSAR", "phase", "displacement", "timeseries", "multitmporal", "SAR", "InSAR", "LOS", "deformation", "ascending", "descending", "range change", "SBAS", "PS";
@@ -788,7 +788,7 @@
   dct:spatial [ a dct:Location;
     locn:geometry "POLYGON((-180 -90,-180 90,180 90,180 -90,-180 -90)"^^gsp:wktLiteral;
   ];
-  hydra:supportedOperation <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/SPATIAL_COHERENCE/Operation>;
+  hydra:supportedOperation <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/SPATIAL_COHERENCE/Search>;
   dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
   owl:versionInfo "1.1";
   schema:keywords "Remote Sensing", "Interferometry", "DInSAR", "interferogram", "phase", "coherence", "multilook", "SAR", "InSAR", "wrapped", "LOS", "deformation", "displacement", "map", "ascending", "descending";
@@ -820,7 +820,7 @@
   dct:spatial [ a dct:Location;
     locn:geometry "POLYGON((-180 -90,-180 90,180 90,180 -90,-180 -90)"^^gsp:wktLiteral;
   ];
-  hydra:supportedOperation <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/MAP_OF_LOS_VECTOR/Operation>;
+  hydra:supportedOperation <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/MAP_OF_LOS_VECTOR/Search>;
   dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
   owl:versionInfo "1.1";
   schema:keywords "Remote Sensing", "Interferometry", "DInSAR", "interferogram", "phase", "fringes", "coherence", "multilook", "SAR", "InSAR", "wrapped", "LOS", "map", "ascending", "descending", "LOS versor";
@@ -853,7 +853,7 @@
   dct:spatial [ a dct:Location;
     locn:geometry "POLYGON(-180 -90,-180 90,180 90,180 -90,-180 -90)"^^gsp:wktLiteral;
   ];
-  hydra:supportedOperation <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/INTERFEROGRAM_APS_GLOBAL_MODEL/Operation>;
+  hydra:supportedOperation <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/INTERFEROGRAM_APS_GLOBAL_MODEL/Search>;
   dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
   owl:versionInfo "1.1";
   schema:keywords "Remote Sensing", "Interferometry", "DInSAR", "phase", "displacement", "timeseries", "multitmporal", "SAR", "InSAR", "LOS", "deformation", "ascending", "descending", "range change", "SBAS", "PS";
@@ -886,7 +886,7 @@
   dct:spatial [ a dct:Location;
     locn:geometry "POLYGON(-180 -90,-180 90,180 90,180 -90,-180 -90)"^^gsp:wktLiteral;
   ];
-  hydra:supportedOperation <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/DEM_RADAR_GEOMETRY/Operation>;
+  hydra:supportedOperation <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/DEM_RADAR_GEOMETRY/Search>;
   dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
   schema:keywords "Remote Sensing", "Interferometry", "DInSAR", "topography", "SAR", "InSAR", "LOS", "radar geometry";
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
@@ -918,7 +918,7 @@
   dct:spatial [ a dct:Location;
     locn:geometry "POLYGON(-180 -90,-180 90,180 90,180 -90,-180 -90)"^^gsp:wktLiteral;
   ];
-  hydra:supportedOperation <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/LOOKUP_TABLE_RADAR2GROUD_COORDINATES/Operation>;
+  hydra:supportedOperation <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/LOOKUP_TABLE_RADAR2GROUD_COORDINATES/Search>;
   dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
   schema:keywords "Remote Sensing", "Interferometry", "DInSAR", "system geometry conversion", "SAR", "InSAR", "LOS", "radar geometry", "geolocation";
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
@@ -949,7 +949,7 @@
 # OPERATIONS - WRAPPED_INTERFEROGRAM/Operation/Search #
 #######################################################
 
-  <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/WRAPPED_INTERFEROGRAM/Operation> a hydra:Operation;
+  <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/WRAPPED_INTERFEROGRAM/Search> a hydra:Operation;
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/atom+xml";
     hydra:property[ a hydra:IriTemplate;
@@ -1007,7 +1007,7 @@
 # OPERATIONS - UNWRAPPED_INTERFEROGRAM/Operation/Search #
 #########################################################
 
-  <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/UNWRAPPED_INTERFEROGRAM/Operation> a hydra:Operation;
+  <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/UNWRAPPED_INTERFEROGRAM/Search> a hydra:Operation;
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/atom+xml";
     hydra:property[ a hydra:IriTemplate;
@@ -1065,7 +1065,7 @@
 # OPERATIONS - LOS_DISPLACEMENT_TIMESERIES/Operation/Search #
 #############################################################
 
-  <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/LOS_DISPLACEMENT_TIMESERIES/Operation> a hydra:Operation;
+  <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/LOS_DISPLACEMENT_TIMESERIES/Search> a hydra:Operation;
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/atom+xml";
     hydra:property[ a hydra:IriTemplate;
@@ -1123,7 +1123,7 @@
 # OPERATIONS - SPATIAL_COHERENCE/Operation/Search #
 ###################################################
 
-  <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/SPATIAL_COHERENCE/Operation> a hydra:Operation;
+  <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/SPATIAL_COHERENCE/Search> a hydra:Operation;
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/atom+xml";
     hydra:property[ a hydra:IriTemplate;
@@ -1181,7 +1181,7 @@
 # OPERATIONS - MAP_OF_LOS_VECTOR/Operation/Search #
 ###################################################
 
-  <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/MAP_OF_LOS_VECTOR/Operation> a hydra:Operation;
+  <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/MAP_OF_LOS_VECTOR/Search> a hydra:Operation;
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/atom+xml";
     hydra:property[ a hydra:IriTemplate;
@@ -1239,7 +1239,7 @@
 # OPERATIONS - INTERFEROGRAM_APS_GLOBAL_MODEL/Operation/Search #
 ################################################################
 
-  <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/INTERFEROGRAM_APS_GLOBAL_MODEL/Operation> a hydra:Operation;
+  <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/INTERFEROGRAM_APS_GLOBAL_MODEL/Search> a hydra:Operation;
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/atom+xml";
     hydra:property[ a hydra:IriTemplate;
@@ -1297,7 +1297,7 @@
 # OPERATIONS - DEM_RADAR_GEOMETRY/Operation/Search #
 ####################################################
 
-  <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/DEM_RADAR_GEOMETRY/Operation> a hydra:Operation;
+  <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/DEM_RADAR_GEOMETRY/Search> a hydra:Operation;
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/atom+xml";
     hydra:property[ a hydra:IriTemplate;
@@ -1355,7 +1355,7 @@
 # OPERATIONS - LOOKUP_TABLE_RADAR2GROUD_COORDINATES/Operation/Search #
 ######################################################################
 
-  <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/LOOKUP_TABLE_RADAR2GROUD_COORDINATES/Operation> a hydra:Operation;
+  <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/LOOKUP_TABLE_RADAR2GROUD_COORDINATES/Search> a hydra:Operation;
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/atom+xml";
     hydra:property[ a hydra:IriTemplate;
@@ -1771,7 +1771,7 @@
   dct:issued "2017-01-01"^^xsd:date ;
   dct:modified "2017-01-01"^^xsd:date ;
   dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI;
-  dcat:accessURL <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/LOS_DISPLACEMENT_TIMESERIES/Operation>;
+  dcat:accessURL <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/LOS_DISPLACEMENT_TIMESERIES/Search>;
   dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/LOS_DISPLACEMENT_TIMESERIES>;
   dct:format "http://publications.europa.eu/resource/authority/file-type/ATOM"^^xsd:anyURI;
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
@@ -1787,7 +1787,7 @@
   dct:issued "2017-01-01"^^xsd:date ;
   dct:modified "2017-01-01"^^xsd:date ;
   dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI;
-  dcat:accessURL <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/WRAPPED_INTERFEROGRAM/Operation>;
+  dcat:accessURL <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/WRAPPED_INTERFEROGRAM/Search>;
   dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/WRAPPED_INTERFEROGRAM>;
   dct:format "http://publications.europa.eu/resource/authority/file-type/ATOM"^^xsd:anyURI;
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
@@ -1803,7 +1803,7 @@
   dct:issued "2017-01-01"^^xsd:date ;
   dct:modified "2017-01-01"^^xsd:date ;
   dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI;
-  dcat:accessURL <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/UNWRAPPED_INTERFEROGRAM/Operation>;
+  dcat:accessURL <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/UNWRAPPED_INTERFEROGRAM/Search>;
   dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/UNWRAPPED_INTERFEROGRAM>;
   dct:format "http://publications.europa.eu/resource/authority/file-type/ATOM"^^xsd:anyURI;
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
@@ -1819,7 +1819,7 @@
   dct:issued "2017-01-01"^^xsd:date ;
   dct:modified "2017-01-01"^^xsd:date ;
   dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI;
-  dcat:accessURL <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/SPATIAL_COHERENCE/Operation>;
+  dcat:accessURL <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/SPATIAL_COHERENCE/Search>;
   dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/SPATIAL_COHERENCE>;
   dct:format "http://publications.europa.eu/resource/authority/file-type/ATOM"^^xsd:anyURI;
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
@@ -1835,7 +1835,7 @@
   dct:issued "2017-01-01"^^xsd:date ;
   dct:modified "2017-01-01"^^xsd:date ;
   dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI;
-  dcat:accessURL <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/MAP_OF_LOS_VECTOR/Operation>;
+  dcat:accessURL <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/MAP_OF_LOS_VECTOR/Search>;
   dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/MAP_OF_LOS_VECTOR>;
   dct:format "http://publications.europa.eu/resource/authority/file-type/ATOM"^^xsd:anyURI;
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
@@ -1851,7 +1851,7 @@
   dct:issued "2017-01-01"^^xsd:date ;
   dct:modified "2017-01-01"^^xsd:date ;
   dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI;
-  dcat:accessURL <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/INTERFEROGRAM_APS_GLOBAL_MODEL/Operation>;
+  dcat:accessURL <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/INTERFEROGRAM_APS_GLOBAL_MODEL/Search>;
   dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/INTERFEROGRAM_APS_GLOBAL_MODEL>;
   dct:format "http://publications.europa.eu/resource/authority/file-type/ATOM"^^xsd:anyURI;
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
@@ -1867,7 +1867,7 @@
   dct:issued "2017-01-01"^^xsd:date ;
   dct:modified "2017-01-01"^^xsd:date ;
   dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI;
-  dcat:accessURL <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/DEM_RADAR_GEOMETRY/Operation>;
+  dcat:accessURL <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/DEM_RADAR_GEOMETRY/Search>;
   dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/DEM_RADAR_GEOMETRY>;
   dct:format "http://publications.europa.eu/resource/authority/file-type/ATOM"^^xsd:anyURI;
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
@@ -1883,7 +1883,7 @@
   dct:issued "2017-01-01"^^xsd:date ;
   dct:modified "2017-01-01"^^xsd:date ;
   dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI;
-  dcat:accessURL <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/LOOKUP_TABLE_RADAR2GROUD_COORDINATES/Operation>;
+  dcat:accessURL <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/LOOKUP_TABLE_RADAR2GROUD_COORDINATES/Search>;
   dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/LOOKUP_TABLE_RADAR2GROUD_COORDINATES>;
   dct:format "http://publications.europa.eu/resource/authority/file-type/ATOM"^^xsd:anyURI;
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
