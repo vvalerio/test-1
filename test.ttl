@@ -531,4 +531,64 @@
     ];
 . 
 
+########################
+# Organizations - CNRS #
+########################
+
+<ISNI:http://isni.org/isni/0000000121129282> a schema:Organization;
+  schema:identifier [ a schema:PropertyValue;
+    schema:propertyID "isni";
+    schema:value "http://isni.org/isni/0000000121129282";
+  ]; 
+  schema:legalName "French National Research Council";
+  #schema:alternateName "Centre national de la recherche scientifique"^^xsd:string;
+  #schema:alternateName "CNRS"^^xsd:string;
+  schema:address [ a schema:PostalAddress;
+    schema:streetAddress "3, rue Michel-Ange";
+    schema:addressLocality "Paris";
+    schema:postalCode "75794";
+    schema:addressCountry "France";
+  ]; 
+  schema:logo "http://www.cnrs.fr/fr/z-tools/newune/themes/CNRSTheme/images/logocnrsSEN.png"^^xsd:anyURI;
+  schema:url "http://www.cnrs.fr/index.php"^^xsd:anyURI;
+  schema:email "drh.webdrh@cnrs.fr";
+  schema:contactPoint <http://orcid.org/0000-0002-2099-2241/scientificContact>;
+  schema:contactPoint <http://orcid.org/0000-0002-2099-2241/legalContact>;
+  schema:contactPoint <http://orcid.org/0000-0002-2099-2241/financialContact>;
+  dct:spatial [ a dct:location ;
+        locn:geometry "POINT(2.26 48.85)"^^xsd:string;
+    ];
+. 
+
+#########################
+# Organizations CNRS    #
+#         |- IPGP #
+#########################
+
+<ISNI:http://isni.org/isni/0000000106758101> a schema:Organization;
+  schema:identifier [ a schema:PropertyValue;
+    schema:propertyID "isni";
+    schema:value "http://isni.org/isni/0000000106758101";
+  ]; 
+  schema:legalName "Institute of Earth Physics of Paris";
+   # schema:alternateName "Institut de Physique du Globe de Paris"^^xsd:string;
+   # schema:alternateName "IPGP"^^xsd:string;
+  schema:address [ a schema:PostalAddress;
+    schema:streetAddress "1, rue Jussieu";
+    schema:addressLocality "Paris";
+    schema:postalCode "75238";
+    schema:addressCountry "France";
+  ]; 
+  schema:logo "https://informatix.ipgp.fr/portail/images/LogoIPGP.svg"^^xsd:anyURI;
+  schema:url "http://www.ipgp.fr/en"^^xsd:anyURI;
+  schema:email "accueil@ipgp.fr";
+  schema:memberOf <ISNI:http://isni.org/isni/0000000121129282>;
+  schema:contactPoint <http://orcid.org/0000-0002-2099-2241/scientificContact>;
+  schema:contactPoint <http://orcid.org/0000-0003-1090-900X/scientificContact>;
+  schema:contactPoint <http://orcid.org/0000-0002-2099-2241/legalContact>;
+  schema:contactPoint <http://orcid.org/0000-0002-2099-2241/financialContact>;
+  dct:spatial [ a dct:location ;
+        locn:geometry "POINT(2.356752 48.845034)"^^xsd:string;
+    ];
+. 
 
