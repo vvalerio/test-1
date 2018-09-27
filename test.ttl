@@ -466,3 +466,37 @@
   schema:availableLanguage "en" ;
   schema:contactType "scientificContact" ;
 .
+
+#################
+# Organizations #
+#################
+
+#######################
+# Organizations - CNR #
+#######################
+
+<ISNI:http://isni.org/isni/0000000121596200> a schema:Organization;
+  schema:identifier [ a schema:PropertyValue;
+    schema:propertyID "isni";
+    schema:value "http://isni.org/isni/0000000121596200";
+  ]; 
+  schema:legalName "Italian National Research Council"^^xsd:string;
+  #schema:alternateName "Consiglio Nazionale Delle Ricerche"^^xsd:string;
+  #schema:alternateName "CNR"^^xsd:string;
+  schema:address [ a schema:PostalAddress;
+    schema:streetAddress "Piazzale Aldo Moro 7";
+    schema:addressLocality "Roma";
+    schema:postalCode "00185";
+    schema:addressCountry "Italy";
+  ]; 
+  schema:logo "https://www.cnr.it/sites/all/themes/custom/cnr03_theme/img/cnrlogo.svg"^^xsd:anyURI;
+  schema:url "https://www.cnr.it/en"^^xsd:anyURI;
+  schema:email "protocollo-ammcen@pec.cnr.it";
+  schema:contactPoint <http://orcid.org/0000-0001-8555-6494/scientificContact>;
+  schema:contactPoint <http://orcid.org/0000-0002-7245-1551/legalContact>;
+  schema:contactPoint <http://orcid.org/0000-0002-7245-1551/financialContact>;
+  dct:spatial [ a dct:location ;
+        locn:geometry "POINT(12.512749 41.9000432 49)"^^xsd:string;
+    ];
+. 
+
