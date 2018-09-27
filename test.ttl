@@ -500,3 +500,35 @@
     ];
 . 
 
+###########################
+# Organizations - CNR     #
+#           |- IREA #
+###########################
+
+<ISNI:http://isni.org/isni/0000000085180610> a schema:Organization;
+  schema:identifier [ a schema:PropertyValue;
+    schema:propertyID "isni";
+    schema:value "http://isni.org/isni/0000000085180610";
+  ]; 
+  schema:legalName "Institute for Electromagnetic Sensing of the Environment";
+  #schema:alternateName "Istituto per il Rilevamento Elettromagnetico dell'Ambiente"^^xsd:string;
+  #schema:alternateName "IREA"^^xsd:string;
+  schema:address [ a schema:PostalAddress;
+    schema:streetAddress "via Diocleziano 328";
+    schema:addressLocality "Naples";
+    schema:postalCode "80124";
+    schema:addressCountry "Italy";
+  ]; 
+  schema:logo "http://www.irea.cnr.it/templates/rt_afterburner_j15/images/logo-ok.png"^^xsd:anyURI;
+  schema:url "http://www.irea.cnr.it/en/"^^xsd:anyURI;
+  schema:email "mbox@irea.cnr.it";
+  schema:memberOf <ISNI:http://isni.org/isni/0000000121596200>;
+  schema:contactPoint <http://orcid.org/0000-0001-8555-6494/scientificContact>;
+  schema:contactPoint <http://orcid.org/0000-0002-7245-1551/legalContact>;
+  schema:contactPoint <http://orcid.org/0000-0002-7245-1551/financialContact>;
+  dct:spatial [ a dct:location ;
+        locn:geometry "POINT(14.182881 40.819711 19)"^^xsd:string;
+    ];
+. 
+
+
