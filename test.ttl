@@ -676,8 +676,8 @@
 # WEB SERVICES - WRAPPED_INTERFEROGRAM #
 ########################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/WRAPPED_INTERFEROGRAM> a epos:WebService;
-  schema:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/WRAPPED_INTERFEROGRAM";
+<epos-dcat-ap/SatelliteObservations/WebService/WRAPPED_INTERFEROGRAM> a epos:WebService;
+  schema:identifier "epos-dcat-ap/SatelliteObservations/WebService/WRAPPED_INTERFEROGRAM";
   #schema:identifier [ a schema:PropertyValue;
     #schema:propertyID  "DDSS-ID";
     #schema:value  "";
@@ -693,7 +693,7 @@
     locn:geometry "POLYGON((-180 -90,-180 90,180 90,180 -90,-180 -90)"^^gsp:wktLiteral;
   ];
   hydra:supportedOperation <SatelliteObservations/WebService/WRAPPED_INTERFEROGRAM/Operation/Search>;
-  dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
+  dct:conformsTo <epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
   owl:versionInfo "1.1";
   schema:keywords "Remote Sensing", "Interferometry", "DInSAR", "interferogram", "phase", "fringes", "SAR", "InSAR", "wrapped", "LOS", "deformation", "displacement", "map", "ascending", "descending", "range change";
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
@@ -708,8 +708,8 @@
 # WEB SERVICES - UNWRAPPED_INTERFEROGRAM #
 ##########################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/UNWRAPPED_INTERFEROGRAM> a epos:WebService;
-  schema:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/UNWRAPPED_INTERFEROGRAM";
+<epos-dcat-ap/SatelliteObservations/WebService/UNWRAPPED_INTERFEROGRAM> a epos:WebService;
+  schema:identifier "epos-dcat-ap/SatelliteObservations/WebService/UNWRAPPED_INTERFEROGRAM";
   #schema:identifier [ a schema:PropertyValue;
     #schema:propertyID  "DDSS-ID";
     #schema:value  "";
@@ -725,7 +725,7 @@
     locn:geometry "POLYGON(-180 -90,-180 90,180 90,180 -90,-180 -90)"^^gsp:wktLiteral;
   ];
   hydra:supportedOperation <SatelliteObservations/WebService/UNWRAPPED_INTERFEROGRAM/Operation/Search>;
-  dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
+  dct:conformsTo <epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
   owl:versionInfo "1.1";
   schema:keywords "Remote Sensing", "Interferometry", "DInSAR", "interferogram", "phase", "SAR", "InSAR", "unwrapped", "LOS", "deformation", "displacement", "map", "ascending", "descending", "range change";
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
@@ -740,8 +740,8 @@
 # WEB SERVICES - LOS_DISPLACEMENT_TIMESERIES #
 ##############################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/LOS_DISPLACEMENT_TIMESERIES> a epos:WebService;
-  schema:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/LOS_DISPLACEMENT_TIMESERIES>";
+<epos-dcat-ap/SatelliteObservations/WebService/LOS_DISPLACEMENT_TIMESERIES> a epos:WebService;
+  schema:identifier "epos-dcat-ap/SatelliteObservations/WebService/LOS_DISPLACEMENT_TIMESERIES>";
   #schema:identifier [ a schema:PropertyValue;
     #schema:propertyID  "DDSS-ID";
     #schema:value  "";
@@ -757,7 +757,7 @@
     locn:geometry "POLYGON(-180 -90,-180 90,180 90,180 -90,-180 -90)"^^gsp:wktLiteral;
   ];
   hydra:supportedOperation <SatelliteObservations/WebService/LOS_DISPLACEMENT_TIMESERIES/Operation/Search>;
-  dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
+  dct:conformsTo <epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
   owl:versionInfo "1.1";
   schema:keywords "Remote Sensing", "Interferometry", "DInSAR", "phase", "displacement", "timeseries", "multitmporal", "SAR", "InSAR", "LOS", "deformation", "ascending", "descending", "range change", "SBAS", "PS";
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
@@ -772,8 +772,8 @@
 # WEB SERVICES - SPATIAL_COHERENCE #
 ####################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/SPATIAL_COHERENCE> a epos:WebService;
-  schema:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/SPATIAL_COHERENCE";
+<epos-dcat-ap/SatelliteObservations/WebService/SPATIAL_COHERENCE> a epos:WebService;
+  schema:identifier "epos-dcat-ap/SatelliteObservations/WebService/SPATIAL_COHERENCE";
   #schema:identifier [ a schema:PropertyValue;
     #schema:propertyID  "DDSS-ID";
     #schema:value  "";
@@ -789,7 +789,7 @@
     locn:geometry "POLYGON((-180 -90,-180 90,180 90,180 -90,-180 -90)"^^gsp:wktLiteral;
   ];
   hydra:supportedOperation <SatelliteObservations/WebService/SPATIAL_COHERENCE/Operation/Search>;
-  dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
+  dct:conformsTo <epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
   owl:versionInfo "1.1";
   schema:keywords "Remote Sensing", "Interferometry", "DInSAR", "interferogram", "phase", "coherence", "multilook", "SAR", "InSAR", "wrapped", "LOS", "deformation", "displacement", "map", "ascending", "descending";
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
@@ -804,8 +804,8 @@
 # WEB SERVICES - MAP_OF_LOS_VECTOR #
 ####################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/MAP_OF_LOS_VECTOR> a epos:WebService;
-  schema:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/MAP_OF_LOS_VECTOR";
+<epos-dcat-ap/SatelliteObservations/WebService/MAP_OF_LOS_VECTOR> a epos:WebService;
+  schema:identifier "epos-dcat-ap/SatelliteObservations/WebService/MAP_OF_LOS_VECTOR";
   #schema:identifier [ a schema:PropertyValue;
     #schema:propertyID  "DDSS-ID";
     #schema:value  "";
@@ -821,7 +821,7 @@
     locn:geometry "POLYGON((-180 -90,-180 90,180 90,180 -90,-180 -90)"^^gsp:wktLiteral;
   ];
   hydra:supportedOperation <SatelliteObservations/WebService/MAP_OF_LOS_VECTOR/Operation/Search>;
-  dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
+  dct:conformsTo <epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
   owl:versionInfo "1.1";
   schema:keywords "Remote Sensing", "Interferometry", "DInSAR", "interferogram", "phase", "fringes", "coherence", "multilook", "SAR", "InSAR", "wrapped", "LOS", "map", "ascending", "descending", "LOS versor";
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
@@ -837,8 +837,8 @@
 # WEB SERVICES - INTERFEROGRAM_APS_GLOBAL_MODEL #
 #################################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/INTERFEROGRAM_APS_GLOBAL_MODEL> a epos:WebService;
-  schema:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/INTERFEROGRAM_APS_GLOBAL_MODEL>";
+<epos-dcat-ap/SatelliteObservations/WebService/INTERFEROGRAM_APS_GLOBAL_MODEL> a epos:WebService;
+  schema:identifier "epos-dcat-ap/SatelliteObservations/WebService/INTERFEROGRAM_APS_GLOBAL_MODEL>";
   #schema:identifier [ a schema:PropertyValue;
     #schema:propertyID  "DDSS-ID";
     #schema:value  "";
@@ -854,7 +854,7 @@
     locn:geometry "POLYGON(-180 -90,-180 90,180 90,180 -90,-180 -90)"^^gsp:wktLiteral;
   ];
   hydra:supportedOperation <SatelliteObservations/WebService/INTERFEROGRAM_APS_GLOBAL_MODEL/Operation/Search>;
-  dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
+  dct:conformsTo <epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
   owl:versionInfo "1.1";
   schema:keywords "Remote Sensing", "Interferometry", "DInSAR", "phase", "displacement", "timeseries", "multitmporal", "SAR", "InSAR", "LOS", "deformation", "ascending", "descending", "range change", "SBAS", "PS";
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
@@ -870,8 +870,8 @@
 # WEB SERVICES - DEM_RADAR_GEOMETRY #
 #####################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/DEM_RADAR_GEOMETRY> a epos:WebService;
-  schema:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/DEM_RADAR_GEOMETRY>";
+<epos-dcat-ap/SatelliteObservations/WebService/DEM_RADAR_GEOMETRY> a epos:WebService;
+  schema:identifier "epos-dcat-ap/SatelliteObservations/WebService/DEM_RADAR_GEOMETRY>";
   #schema:identifier [ a schema:PropertyValue;
     #schema:propertyID  "DDSS-ID";
     #schema:value  "";
@@ -887,7 +887,7 @@
     locn:geometry "POLYGON(-180 -90,-180 90,180 90,180 -90,-180 -90)"^^gsp:wktLiteral;
   ];
   hydra:supportedOperation <SatelliteObservations/WebService/DEM_RADAR_GEOMETRY/Operation/Search>;
-  dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
+  dct:conformsTo <epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
   schema:keywords "Remote Sensing", "Interferometry", "DInSAR", "topography", "SAR", "InSAR", "LOS", "radar geometry";
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
   dct:temporal [ a dct:PeriodOfTime;
@@ -902,8 +902,8 @@
 # WEB SERVICES - LOOKUP_TABLE_RADAR2GROUD_COORDINATES #
 #######################################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/LOOKUP_TABLE_RADAR2GROUD_COORDINATES> a epos:WebService;
-  schema:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/LOOKUP_TABLE_RADAR2GROUD_COORDINATES>";
+<epos-dcat-ap/SatelliteObservations/WebService/LOOKUP_TABLE_RADAR2GROUD_COORDINATES> a epos:WebService;
+  schema:identifier "epos-dcat-ap/SatelliteObservations/WebService/LOOKUP_TABLE_RADAR2GROUD_COORDINATES>";
   #schema:identifier [ a schema:PropertyValue;
     #schema:propertyID  "DDSS-ID";
     #schema:value  "";
@@ -919,7 +919,7 @@
     locn:geometry "POLYGON(-180 -90,-180 90,180 90,180 -90,-180 -90)"^^gsp:wktLiteral;
   ];
   hydra:supportedOperation <SatelliteObservations/WebService/LOOKUP_TABLE_RADAR2GROUD_COORDINATES/Operation/Search>;
-  dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
+  dct:conformsTo <epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation>;
   schema:keywords "Remote Sensing", "Interferometry", "DInSAR", "system geometry conversion", "SAR", "InSAR", "LOS", "radar geometry", "geolocation";
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
   dct:temporal [ a dct:PeriodOfTime;
@@ -934,7 +934,7 @@
 # API DOCUMENTATION COMMON TO ALL THE WEBSERVICES #
 ###################################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation> a hydra:APIDocumentation ;
+<epos-dcat-ap/SatelliteObservations/WebServices/APIDocumentation> a hydra:APIDocumentation ;
   hydra:title "Satellite Observations catalogue service API Documentation" ;
   hydra:description "This is the technical documentation for the Satellite Observations catalogue service API" ;
   hydra:entrypoint "https://catalog.terradue.com/gep-epos/description"^^xsd:anyURI ;
@@ -1433,9 +1433,9 @@
 # DATASETS - LOS Displacement Time Series #
 ###########################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/LOS_Displacement_Time_Series> a dcat:Dataset;
+<epos-dcat-ap/SatelliteObservations/Dataset/LOS_Displacement_Time_Series> a dcat:Dataset;
         dct:title "Line of sight displacement time series";
-        dct:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/LOS_Displacement_Time_Series";
+        dct:identifier "epos-dcat-ap/SatelliteObservations/Dataset/LOS_Displacement_Time_Series";
         dct:description "Line of sight displacement time series";
         adms:identifier [ a adms:Identifier ;
         adms:schemaAgency "DDSS-ID" ;
@@ -1450,7 +1450,7 @@
         dcat:keyword "Remote Sensing", "Interferometry", "DInSAR", "phase", "displacement", "timeseries", "multitmporal", "SAR", "InSAR", "LOS", "deformation", "ascending", "descending", "range change", "SBAS", "PS";
         dcat:contactPoint <http://orcid.org/0000-0001-8555-6494/scientificContact>;
   dct:publisher <ISNI:http://isni.org/isni/0000000085180610>;
-        dcat:distribution <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/LOS_Displacement_Time_Series>;
+        dcat:distribution <epos-dcat-ap/SatelliteObservations/Dataset/Distribution/LOS_Displacement_Time_Series>;
         dct:spatial [ a dct:Location ;
                       locn:geometry "POLYGON(-180.0 -90.0,180.0 -90.0,180.0 90.0,-180.0 90.0,-180.0 -90.0)"^^gsp:wktLiteral;
         ];
@@ -1464,9 +1464,9 @@
 # DATASETS - Temporal Coherence #
 #################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Temporal_Coherence> a dcat:Dataset;
+<epos-dcat-ap/SatelliteObservations/Dataset/Temporal_Coherence> a dcat:Dataset;
         dct:title "Line of sight displacement time series";
-        dct:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Temporal_Coherence";
+        dct:identifier "epos-dcat-ap/SatelliteObservations/Dataset/Temporal_Coherence";
         dct:description "Temporal Coherence";
         adms:identifier [ a adms:Identifier ;
         adms:schemaAgency "DDSS-ID" ;
@@ -1481,7 +1481,7 @@
         dcat:keyword "Remote Sensing", "Interferometry", "DInSAR", "displacement", "timeseries", "multitmporal", "measurement quality", "SAR", "InSAR", "LOS", "deformation", "SBAS", "PS";
         dcat:contactPoint <http://orcid.org/0000-0001-8555-6494/scientificContact>;
   dct:publisher <ISNI:http://isni.org/isni/0000000085180610>;
-        dcat:distribution <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/LOS_Displacement_Time_Series>;
+        dcat:distribution <epos-dcat-ap/SatelliteObservations/Dataset/Distribution/LOS_Displacement_Time_Series>;
         dct:spatial [ a dct:Location ;
                       locn:geometry "POLYGON(-180.0 -90.0,180.0 -90.0,180.0 90.0,-180.0 90.0,-180.0 -90.0)"^^gsp:wktLiteral;
         ];
@@ -1495,9 +1495,9 @@
 #  DATASETS - Average scatterer elevation #
 ###########################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Average_Scatterer_Elevation> a dcat:Dataset;
+<epos-dcat-ap/SatelliteObservations/Dataset/Average_Scatterer_Elevation> a dcat:Dataset;
         dct:title "Line of sight displacement time series";
-        dct:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Average_Scatterer_Elevation";
+        dct:identifier "epos-dcat-ap/SatelliteObservations/Dataset/Average_Scatterer_Elevation";
         dct:description "Average scatterer elevation";
         adms:identifier [ a adms:Identifier ;
         adms:schemaAgency "DDSS-ID" ;
@@ -1512,7 +1512,7 @@
         dcat:keyword "Remote Sensing", "Interferometry", "DInSAR", "topography", "timeseries", "multitmporal", "SAR", "InSAR", "LOS", "deformation", "SBAS", "PS";
         dcat:contactPoint <http://orcid.org/0000-0001-8555-6494/scientificContact>;
   dct:publisher <ISNI:http://isni.org/isni/0000000085180610>;
-        dcat:distribution <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/LOS_Displacement_Time_Series>;
+        dcat:distribution <epos-dcat-ap/SatelliteObservations/Dataset/Distribution/LOS_Displacement_Time_Series>;
         dct:spatial [ a dct:Location ;
                       locn:geometry "POLYGON(-180.0 -90.0,180.0 -90.0,180.0 90.0,-180.0 90.0,-180.0 -90.0)"^^gsp:wktLiteral;
         ];
@@ -1526,9 +1526,9 @@
 #  DATASETS - Mean LOS velocity #
 #################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Mean_LOS_Velocity> a dcat:Dataset;
+<epos-dcat-ap/SatelliteObservations/Dataset/Mean_LOS_Velocity> a dcat:Dataset;
         dct:title "Line of sight displacement time series";
-        dct:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Mean_LOS_Velocity";
+        dct:identifier "epos-dcat-ap/SatelliteObservations/Dataset/Mean_LOS_Velocity";
         dct:description "Mean LOS Velocity";
         adms:identifier [ a adms:Identifier ;
         adms:schemaAgency "DDSS-ID" ;
@@ -1543,7 +1543,7 @@
         dcat:keyword "Remote Sensing", "Interferometry", "DInSAR", "velocity", "mena velocity", "displacement", "timeseries", "multitmporal", "SAR", "InSAR", "LOS", "deformation", "ascending", "descending", "range change", "SBAS", "PS";
         dcat:contactPoint <http://orcid.org/0000-0001-8555-6494/scientificContact>;
   dct:publisher <ISNI:http://isni.org/isni/0000000085180610>;
-        dcat:distribution <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/LOS_Displacement_Time_Series>;
+        dcat:distribution <epos-dcat-ap/SatelliteObservations/Dataset/Distribution/LOS_Displacement_Time_Series>;
         dct:spatial [ a dct:Location ;
                       locn:geometry "POLYGON(-180.0 -90.0,180.0 -90.0,180.0 90.0,-180.0 90.0,-180.0 -90.0)"^^gsp:wktLiteral;
         ];
@@ -1557,9 +1557,9 @@
 #  DATASETS - Wrapped Interferogram #
 #####################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Wrapped_Interferogram> a dcat:Dataset;
+<epos-dcat-ap/SatelliteObservations/Dataset/Wrapped_Interferogram> a dcat:Dataset;
         dct:title "Line of sight displacement time series";
-        dct:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Wrapped_Interferogram";
+        dct:identifier "epos-dcat-ap/SatelliteObservations/Dataset/Wrapped_Interferogram";
         dct:description "Wrapped Differential Interferogram (Phase and Amplitude)";
         adms:identifier [ a adms:Identifier ;
         adms:schemaAgency "DDSS-ID" ;
@@ -1574,7 +1574,7 @@
         dcat:keyword "Remote Sensing", "Interferometry", "DInSAR", "interferogram", "phase", "fringes", "SAR", "InSAR", "wrapped", "LOS", "deformation", "displacement", "map", "ascending", "descending", "range change";
         dcat:contactPoint <http://orcid.org/0000-0001-8555-6494/scientificContact>;
   dct:publisher <ISNI:http://isni.org/isni/0000000085180610>;
-        dcat:distribution <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Wrapped_Interferogram>;
+        dcat:distribution <epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Wrapped_Interferogram>;
         dct:spatial [ a dct:Location ;
                       locn:geometry "POLYGON(-180.0 -90.0,180.0 -90.0,180.0 90.0,-180.0 90.0,-180.0 -90.0)"^^gsp:wktLiteral;
         ];
@@ -1588,9 +1588,9 @@
 #  DATASETS - Unwrapped Interferogram #
 #######################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Unwrapped_Interferogram> a dcat:Dataset;
+<epos-dcat-ap/SatelliteObservations/Dataset/Unwrapped_Interferogram> a dcat:Dataset;
         dct:title "Line of sight displacement time series";
-        dct:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Unwrapped_Interferogram";
+        dct:identifier "epos-dcat-ap/SatelliteObservations/Dataset/Unwrapped_Interferogram";
         dct:description "Unwrapped Differential Interferogram (Phase and Amplitude)";
         adms:identifier [ a adms:Identifier ;
         adms:schemaAgency "DDSS-ID" ;
@@ -1605,7 +1605,7 @@
         dcat:keyword "Remote Sensing", "Interferometry", "DInSAR", "interferogram", "phase", "SAR", "InSAR", "unwrapped", "LOS", "deformation", "displacement", "map", "ascending", "descending", "range change";
         dcat:contactPoint <http://orcid.org/0000-0001-8555-6494/scientificContact>;
   dct:publisher <ISNI:http://isni.org/isni/0000000085180610>;
-        dcat:distribution <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Unwrapped_Interferogram>;
+        dcat:distribution <epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Unwrapped_Interferogram>;
         dct:spatial [ a dct:Location ;
                       locn:geometry "POLYGON(-180.0 -90.0,180.0 -90.0,180.0 90.0,-180.0 90.0,-180.0 -90.0)"^^gsp:wktLiteral;
         ];
@@ -1619,9 +1619,9 @@
 #  DATASETS - Spatial Coherence #
 #################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Spatial_Coherence> a dcat:Dataset;
+<epos-dcat-ap/SatelliteObservations/Dataset/Spatial_Coherence> a dcat:Dataset;
         dct:title "Line of sight displacement time series";
-        dct:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Spatial_Coherence";
+        dct:identifier "epos-dcat-ap/SatelliteObservations/Dataset/Spatial_Coherence";
         dct:description "Spatial Coherence";
         adms:identifier [ a adms:Identifier ;
         adms:schemaAgency "DDSS-ID" ;
@@ -1636,7 +1636,7 @@
         dcat:keyword "Remote Sensing", "Interferometry", "DInSAR", "interferogram", "phase", "coherence", "multilook", "SAR", "InSAR", "wrapped", "LOS", "deformation", "displacement", "map", "ascending", "descending";
         dcat:contactPoint <http://orcid.org/0000-0001-8555-6494/scientificContact>;
   dct:publisher <ISNI:http://isni.org/isni/0000000085180610>;
-        dcat:distribution <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Spatial_Coherence>;
+        dcat:distribution <epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Spatial_Coherence>;
         dct:spatial [ a dct:Location ;
                       locn:geometry "POLYGON(-180.0 -90.0,180.0 -90.0,180.0 90.0,-180.0 90.0,-180.0 -90.0)"^^gsp:wktLiteral;
         ];
@@ -1650,9 +1650,9 @@
 #  DATASETS - Map of LOS Vector #
 #################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Map_of_LOS_Vector> a dcat:Dataset;
+<epos-dcat-ap/SatelliteObservations/Dataset/Map_of_LOS_Vector> a dcat:Dataset;
         dct:title "Line of sight displacement time series";
-        dct:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Map_of_LOS_Vector";
+        dct:identifier "epos-dcat-ap/SatelliteObservations/Dataset/Map_of_LOS_Vector";
         dct:description "Map of LOS Vector (NEU coefficient)";
         adms:identifier [ a adms:Identifier ;
         adms:schemaAgency "DDSS-ID" ;
@@ -1667,7 +1667,7 @@
         dcat:keyword "Remote Sensing", "Interferometry", "DInSAR", "interferogram", "phase", "fringes", "coherence", "multilook", "SAR", "InSAR", "wrapped", "LOS", "map", "ascending", "descending", "LOS versor";
         dcat:contactPoint <http://orcid.org/0000-0001-8555-6494/scientificContact>;
   dct:publisher <ISNI:http://isni.org/isni/0000000085180610>;
-        dcat:distribution <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Map_of_LOS_Vector>;
+        dcat:distribution <epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Map_of_LOS_Vector>;
         dct:spatial [ a dct:Location ;
                       locn:geometry "POLYGON(-180.0 -90.0,180.0 -90.0,180.0 90.0,-180.0 90.0,-180.0 -90.0)"^^gsp:wktLiteral;
         ];
@@ -1681,9 +1681,9 @@
 #  DATASETS - Interferogram Atmospheric Phase Screen from Global Atmospheric Model #
 ####################################################################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Interferogram_APS_Global_Model> a dcat:Dataset;
+<epos-dcat-ap/SatelliteObservations/Dataset/Interferogram_APS_Global_Model> a dcat:Dataset;
         dct:title "Interferogram Atmospheric Phase Screen from Global Atmospheric Model";
-        dct:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Interferogram_APS_Global_Model";
+        dct:identifier "epos-dcat-ap/SatelliteObservations/Dataset/Interferogram_APS_Global_Model";
         dct:description "Interferogram Atmospheric Phase Screen from Global  Atmospheric Model";
         adms:identifier [ a adms:Identifier ;
         adms:schemaAgency "DDSS-ID" ;
@@ -1699,7 +1699,7 @@
         dcat:contactPoint <http://orcid.org/0000-0003-1090-900X/scientificContact>;
         dcat:contactPoint <http://orcid.org/0000-0002-2099-2241/scientificContact>;
   dct:publisher <ISNI:http://isni.org/isni/0000000106758101>;
-        dcat:distribution <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Interferogram_APS_Global_Model>;
+        dcat:distribution <epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Interferogram_APS_Global_Model>;
         dct:spatial [ a dct:Location ;
                       locn:geometry "POLYGON(-180.0 -90.0,180.0 -90.0,180.0 90.0,-180.0 90.0,-180.0 -90.0)"^^gsp:wktLiteral;
         ];
@@ -1713,9 +1713,9 @@
 #  DATASETS - DEM in radar geometry #
 #####################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/DEM_Radar_Geometry> a dcat:Dataset;
+<epos-dcat-ap/SatelliteObservations/Dataset/DEM_Radar_Geometry> a dcat:Dataset;
         dct:title "Interferogram Atmospheric Phase Screen from Global  Atmospheric Model";
-        dct:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/DEM_Radar_Geometry";
+        dct:identifier "epos-dcat-ap/SatelliteObservations/Dataset/DEM_Radar_Geometry";
         dct:description "DEM in radar geometry";
         adms:identifier [ a adms:Identifier ;
         adms:schemaAgency "DDSS-ID" ;
@@ -1731,7 +1731,7 @@
         dcat:contactPoint <http://orcid.org/0000-0003-1090-900X/scientificContact>;
         dcat:contactPoint <http://orcid.org/0000-0002-2099-2241/scientificContact>;
   dct:publisher <ISNI:http://isni.org/isni/0000000106758101>;
-        dcat:distribution <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/DEM_Radar_Geometry>;
+        dcat:distribution <epos-dcat-ap/SatelliteObservations/Dataset/Distribution/DEM_Radar_Geometry>;
         dct:spatial [ a dct:Location ;
                       locn:geometry "POLYGON(-180.0 -90.0,180.0 -90.0,180.0 90.0,-180.0 90.0,-180.0 -90.0)"^^gsp:wktLiteral;
         ];
@@ -1745,9 +1745,9 @@
 #  DATASETS - Lookup table from radar coordinates to ground coordinates #
 #########################################################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Lookup_Table_Radar2Ground_Coordinates> a dcat:Dataset;
+<epos-dcat-ap/SatelliteObservations/Dataset/Lookup_Table_Radar2Ground_Coordinates> a dcat:Dataset;
         dct:title "Interferogram Atmospheric Phase Screen from Global  Atmospheric Model";
-        dct:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Lookup_Table_Radar2Ground_Coordinates";
+        dct:identifier "epos-dcat-ap/SatelliteObservations/Dataset/Lookup_Table_Radar2Ground_Coordinates";
         dct:description "Lookup table from radar coordinates to ground coordinates";
         adms:identifier [ a adms:Identifier ;
         adms:schemaAgency "DDSS-ID" ;
@@ -1763,7 +1763,7 @@
         dcat:contactPoint <http://orcid.org/0000-0003-1090-900X/scientificContact>;
         dcat:contactPoint <http://orcid.org/0000-0002-2099-2241/scientificContact>;
   dct:publisher <ISNI:http://isni.org/isni/0000000106758101>;
-        dcat:distribution <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Lookup_Table_Radar2Ground_Coordinates>;
+        dcat:distribution <epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Lookup_Table_Radar2Ground_Coordinates>;
         dct:spatial [ a dct:Location ;
                       locn:geometry "POLYGON(-180.0 -90.0,180.0 -90.0,180.0 90.0,-180.0 90.0,-180.0 -90.0)"^^gsp:wktLiteral;
         ];
@@ -1781,14 +1781,14 @@
 # DISTRIBUTIONS - LOS Displacement Time Series #
 ################################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/LOS_Displacement_Time_Series> a dcat:Distribution;
-      dct:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/LOS_Displacement_Time_Series";
+<epos-dcat-ap/SatelliteObservations/Dataset/Distribution/LOS_Displacement_Time_Series> a dcat:Distribution;
+      dct:identifier "epos-dcat-ap/SatelliteObservations/Dataset/Distribution/LOS_Displacement_Time_Series";
   dct:description "Description of LOS Displacement Time Series distribution";
   dct:issued "2017-01-01"^^xsd:date ;
   dct:modified "2017-01-01"^^xsd:date ;
   dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI;
   dcat:accessURL <SatelliteObservations/WebService/LOS_DISPLACEMENT_TIMESERIES/Operation/Search>;
-  dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/LOS_DISPLACEMENT_TIMESERIES>;
+  dct:conformsTo <epos-dcat-ap/SatelliteObservations/WebService/LOS_DISPLACEMENT_TIMESERIES>;
   dct:format "http://publications.europa.eu/resource/authority/file-type/ATOM"^^xsd:anyURI;
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
 .
@@ -1797,14 +1797,14 @@
 # DISTRIBUTIONS - Wrapped Interferogram #
 #########################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Wrapped_Interferogram> a dcat:Distribution;
-      dct:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Wrapped_Interferogram";
+<epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Wrapped_Interferogram> a dcat:Distribution;
+      dct:identifier "epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Wrapped_Interferogram";
   dct:description "Description of Wrapped Interferograms distribution";
   dct:issued "2017-01-01"^^xsd:date ;
   dct:modified "2017-01-01"^^xsd:date ;
   dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI;
   dcat:accessURL <SatelliteObservations/WebService/WRAPPED_INTERFEROGRAM/Operation/Search>;
-  dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/WRAPPED_INTERFEROGRAM>;
+  dct:conformsTo <epos-dcat-ap/SatelliteObservations/WebService/WRAPPED_INTERFEROGRAM>;
   dct:format "http://publications.europa.eu/resource/authority/file-type/ATOM"^^xsd:anyURI;
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
 .
@@ -1813,14 +1813,14 @@
 # DISTRIBUTIONS - Unwrapped Interferogram #
 ###########################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Unwrapped_Interferogram> a dcat:Distribution;
-      dct:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Unwrapped_Interferogram";
+<epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Unwrapped_Interferogram> a dcat:Distribution;
+      dct:identifier "epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Unwrapped_Interferogram";
   dct:description "Description of Unwrapped Interferograms distribution";
   dct:issued "2017-01-01"^^xsd:date ;
   dct:modified "2017-01-01"^^xsd:date ;
   dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI;
   dcat:accessURL <SatelliteObservations/WebService/UNWRAPPED_INTERFEROGRAM/Operation/Search>;
-  dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/UNWRAPPED_INTERFEROGRAM>;
+  dct:conformsTo <epos-dcat-ap/SatelliteObservations/WebService/UNWRAPPED_INTERFEROGRAM>;
   dct:format "http://publications.europa.eu/resource/authority/file-type/ATOM"^^xsd:anyURI;
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
 .
@@ -1829,14 +1829,14 @@
 # DISTRIBUTIONS - Spatial Coherence #
 #####################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Spatial_Coherence> a dcat:Distribution;
-      dct:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Spatial_Coherence";
+<epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Spatial_Coherence> a dcat:Distribution;
+      dct:identifier "epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Spatial_Coherence";
   dct:description "Description of Spatial Coherence distribution";
   dct:issued "2017-01-01"^^xsd:date ;
   dct:modified "2017-01-01"^^xsd:date ;
   dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI;
   dcat:accessURL <SatelliteObservations/WebService/SPATIAL_COHERENCE/Operation/Search>;
-  dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/SPATIAL_COHERENCE>;
+  dct:conformsTo <epos-dcat-ap/SatelliteObservations/WebService/SPATIAL_COHERENCE>;
   dct:format "http://publications.europa.eu/resource/authority/file-type/ATOM"^^xsd:anyURI;
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
 .
@@ -1845,14 +1845,14 @@
 # DISTRIBUTIONS - Map of LOS Vector #
 #####################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Map_of_LOS_Vector> a dcat:Distribution;
-      dct:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Map_of_LOS_Vector";
+<epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Map_of_LOS_Vector> a dcat:Distribution;
+      dct:identifier "epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Map_of_LOS_Vector";
   dct:description "Description of Map of LOS Vector distribution";
   dct:issued "2017-01-01"^^xsd:date ;
   dct:modified "2017-01-01"^^xsd:date ;
   dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI;
   dcat:accessURL <SatelliteObservations/WebService/MAP_OF_LOS_VECTOR/Operation/Search>;
-  dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/MAP_OF_LOS_VECTOR>;
+  dct:conformsTo <epos-dcat-ap/SatelliteObservations/WebService/MAP_OF_LOS_VECTOR>;
   dct:format "http://publications.europa.eu/resource/authority/file-type/ATOM"^^xsd:anyURI;
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
 .
@@ -1861,14 +1861,14 @@
 # DISTRIBUTIONS - INTERFEROGRAM_APS_GLOBAL_MODEL #
 ##################################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Interferogram_APS_Global_Model> a dcat:Distribution;
-      dct:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Interferogram_APS_Global_Model";
+<epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Interferogram_APS_Global_Model> a dcat:Distribution;
+      dct:identifier "epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Interferogram_APS_Global_Model";
   dct:description "Description of Interferogram Atmospheric Phase Screen from Global Atmospheric Model distribution";
   dct:issued "2017-01-01"^^xsd:date ;
   dct:modified "2017-01-01"^^xsd:date ;
   dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI;
   dcat:accessURL <SatelliteObservations/WebService/INTERFEROGRAM_APS_GLOBAL_MODEL/Operation/Search>;
-  dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/INTERFEROGRAM_APS_GLOBAL_MODEL>;
+  dct:conformsTo <epos-dcat-ap/SatelliteObservations/WebService/INTERFEROGRAM_APS_GLOBAL_MODEL>;
   dct:format "http://publications.europa.eu/resource/authority/file-type/ATOM"^^xsd:anyURI;
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
 .
@@ -1877,14 +1877,14 @@
 # DISTRIBUTIONS - DEM in radar geometry #
 #########################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/DEM_Radar_Geometry> a dcat:Distribution;
-      dct:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/DEM_Radar_Geometry";
+<epos-dcat-ap/SatelliteObservations/Dataset/Distribution/DEM_Radar_Geometry> a dcat:Distribution;
+      dct:identifier "epos-dcat-ap/SatelliteObservations/Dataset/Distribution/DEM_Radar_Geometry";
   dct:description "Description of DEM in radar geometry distribution";
   dct:issued "2017-01-01"^^xsd:date ;
   dct:modified "2017-01-01"^^xsd:date ;
   dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI;
   dcat:accessURL <SatelliteObservations/WebService/DEM_RADAR_GEOMETRY/Operation/Search>;
-  dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/DEM_RADAR_GEOMETRY>;
+  dct:conformsTo <epos-dcat-ap/SatelliteObservations/WebService/DEM_RADAR_GEOMETRY>;
   dct:format "http://publications.europa.eu/resource/authority/file-type/ATOM"^^xsd:anyURI;
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
 .
@@ -1893,14 +1893,14 @@
 # DISTRIBUTIONS - Lookup table from radar coordinates to ground coordinates #
 #############################################################################
 
-<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Lookup_Table_Radar2Ground_Coordinates> a dcat:Distribution;
-      dct:identifier "https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/Dataset/Lookup_Table_Radar2Ground_Coordinates/Distribution/Lookup_Table_Radar2Ground_Coordinates";
+<epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Lookup_Table_Radar2Ground_Coordinates> a dcat:Distribution;
+      dct:identifier "epos-dcat-ap/SatelliteObservations/Dataset/Distribution/Lookup_Table_Radar2Ground_Coordinates";
   dct:description "Description of Lookup table from radar coordinates to ground coordinates distribution";
   dct:issued "2017-01-01"^^xsd:date ;
   dct:modified "2017-01-01"^^xsd:date ;
   dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI;
   dcat:accessURL <SatelliteObservations/WebService/LOOKUP_TABLE_RADAR2GROUD_COORDINATES/Operation/Search>;
-  dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/LOOKUP_TABLE_RADAR2GROUD_COORDINATES>;
+  dct:conformsTo <epos-dcat-ap/SatelliteObservations/WebService/LOOKUP_TABLE_RADAR2GROUD_COORDINATES>;
   dct:format "http://publications.europa.eu/resource/authority/file-type/ATOM"^^xsd:anyURI;
   dct:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI;
 .
