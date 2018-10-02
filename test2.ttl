@@ -118,6 +118,11 @@
         schema:availableLanguage "en", "fr" ;
         schema:contactType "financialContact" ;
 .
+<http://orcid.org/0000-0001-8720-7300/contactPoint> a schema:ContactPoint;
+        schema:email "m.gouhier@opgc.fr";
+        schema:availableLanguage "en", "fr";
+        schema:contactType "manager" ;
+.
 
 <http://isni.org/isni/0000000121129282> a schema:Organization;
     schema:identifier [ a schema:PropertyValue;
@@ -137,3 +142,6 @@
     schema:url "http://cnrs.fr"^^xsd:anyURI;
     schema:telephone "+33144964000";
 .
+
+
+ 
