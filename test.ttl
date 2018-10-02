@@ -25,7 +25,6 @@
         skos:notation "WP11-DDSS-050";
     ];
     dct:type "http://purl.org/dc/dcmitype/Image"^^xsd:anyURI;
-    dct:format "http://publications.europa.eu/mdr/resource/authority/file-type/html/filetypes-eng.html#JPEG"^^xsd:anyURI;
     dct:accrualPeriodicity "http://purl.org/cld/freq/irregular"^^xsd:anyURI;
     dct:temporal [ a dct:PeriodOfTime;
         schema:startDate "2015-05-07T14:52:40"^^xsd:dateTime;
