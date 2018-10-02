@@ -28,8 +28,8 @@
     dct:format "http://publications.europa.eu/mdr/resource/authority/file-type/html/filetypes-eng.html#JPEG"^^xsd:anyURI;
     dct:accrualPeriodicity "http://purl.org/cld/freq/irregular"^^xsd:anyURI;
     dct:temporal [ a dct:PeriodOfTime;
-        schema:startDate "2015-05-07 14:52:40"^^xsd:dateTime;
-        schema:endDate "2015-06-24 14:53:07"^^xsd:dateTime;
+        schema:startDate "2015-05-07T14:52:40"^^xsd:dateTime;
+        schema:endDate "2015-06-24T14:53:07"^^xsd:dateTime;
     ];
     dct:issued "2017-06-21"^^xsd:dateTime;
     dct:modified "2017-06-21"^^xsd:dateTime;
