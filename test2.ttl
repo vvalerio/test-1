@@ -290,10 +290,10 @@
 .
 
  <epos:VolcanoObservations> a skos:ConceptScheme;
-        dct:title "Volcano Observations";
-        dct:description "It contains the concepts of Volcanological Observations";
+	dct:title "Volcano Observations";
+	dct:description "It contains the concepts of Volcanological Observations";
 .
-    <epos:Thermalmonitoring> a skos:Concept;
+ <epos:Thermalmonitoring> a skos:Concept;
         skos:inScheme <epos:VolcanoObservations>;
         skos:prefLabel "Thermal monitoring";
 	skos:definition "Thermal monitoring" ;
