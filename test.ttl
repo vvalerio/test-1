@@ -39,7 +39,7 @@
         dct:accrualPeriodicity "http://purl.org/cld/freq/continuous"^^xsd:anyURI ;
 
         # This property refers to a category of the Dataset. A Dataset may be associated with multiple themes.
-        dcat:theme  <epos:SeismicWaveform> ;
+        dcat:theme  <epos:RadarInterferometry> ;
 
         dcat:keyword "seismic waveform","continuous waveform" ,"mseed" ;
         
