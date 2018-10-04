@@ -39,8 +39,25 @@
     ];
     dcat:theme <epos:RadarInterferometry>;
     dcat:keyword "radar", "interferometry", "Reunion", "Piton de la Fournaise", "deformation", "SENTINEL", "COSMOSKYMED", "ALOS-PALSAR";
-    #dcat:contactPoint <http://www.researcherid.com/rid/O-8042-2014/contactPoint>;
+    dcat:contactPoint <http://www.researcherid.com/rid/O-8042-2014/contactPoint>;
     #dct:publisher <http://isni.org/isni/0000000109416043>;
     #dcat:distribution <https://www.epos-eu.org/epos-dcat-ap/VolcanoObservations/Dataset/050/Distribution/DataDownload>;
     #dcat:distribution <https://www.epos-eu.org/epos-dcat-ap/VolcanoObservations/Dataset/050/Distribution/DataCatalog>;
+.
+
+<http://www.researcherid.com/rid/O-8042-2014/contactPoint> a schema:ContactPoint;
+        schema:email "j.l.froger@opgc.fr";
+        schema:availableLanguage "en", "fr";
+        schema:contactType "manager";
+.
+
+<epos:VolcanoObservations> a skos:ConceptScheme;
+        dct:title "Volcano-Observations";
+        dct:description "It contains the concept of Volcanological observations";
+.
+
+<epos:RadarInterferometry> a skos:Concept;
+        skos:inScheme <epos:VolcanoObservations>;
+        skos:prefLabel "Radar Interferometry";
+	skos:definition "Radar Interferometry";
 .
