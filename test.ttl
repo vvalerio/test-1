@@ -16,48 +16,31 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix gsp: <http://www.opengis.net/ont/geosparql#> .
 
-<fournaise_S1_S6_AR_05816_06516_ext7.5m> a dcat:Dataset;
-    dct:title "InSar Observatory of Indian Ocean - Wrapped Differential Interferograms - fournaise_S1_S6_AR_05816_06516_ext7.5m"^^xsd:string;
-    dct:identifier "fournaise_S1_S6_AR_05816_06516_ext7.5m";
-    dct:description "A Wrapped Differential Interferogram made using data from SENTINEL Satellite - target: Piton de la Fournaise - Reunion island FRANCE";
-    adms:identifier [ a adms:Identifier;
-        adms:schemaAgency "DDSS-ID";
-        skos:notation "WP11-DDSS-050";
-    ];
+<https://www.epos-eu.org/epos-dcat-ap/VolcanoObservations/Dataset/050> a dcat:Dataset;
+    dct:title "InSar Observatory of Indian Ocean - Wrapped Differential Interferograms"^^xsd:string;
+    dct:identifier "https://www.epos-eu.org/epos-dcat-ap/VolcanoObservations/Dataset/050";
+    dct:description "A Wrapped Differential Interferogram made using data from SENTINEL Satellite";
+    
+    adms:identifier [ a adms:Identifier ;
+            adms:schemaAgency "DDSS-ID" ;
+            skos:notation "WP11-DDSS-050" ;
+
+        ];
     dct:type "http://purl.org/dc/dcmitype/Image"^^xsd:anyURI;
     dct:accrualPeriodicity "http://purl.org/cld/freq/irregular"^^xsd:anyURI;
     dct:temporal [ a dct:PeriodOfTime;
-        schema:startDate "2015-05-07T14:52:40"^^xsd:dateTime;
-        schema:endDate "2015-06-24T14:53:07"^^xsd:dateTime;
+        schema:startDate "2016-01-14T14:52:44Z"^^xsd:dateTime;
+        schema:endDate "2016-02-19T14:53:07Z"^^xsd:dateTime;
     ];
     dct:issued "2017-06-21"^^xsd:dateTime;
     dct:modified "2017-06-21"^^xsd:dateTime;
     dct:spatial [ a dct:Location;
-        locn:geometry "POLYGON(-21.182913 55.622471, -21.184441 55.82473, -21.338009 55.823513, -21.33647 55.62104)"^^xsd:string;
+        locn:geometry "POLYGON(55.622471 -21.182913, 55.82473 -21.184441, 55.823513 -21.338009, 55.62104 -21.33647)"^^gsp:wktLiteral;
     ];
-    dcat:theme <#RadarInterferometry>;
+    dcat:theme <epos:RadarInterferometry>;
     dcat:keyword "radar", "interferometry", "Reunion", "Piton de la Fournaise", "deformation", "SENTINEL", "COSMOSKYMED", "ALOS-PALSAR";
-    dcat:contactPoint <http://www.researcherid.com/rid/O-8042-2014/contactPoint>;
-    dct:publisher <http://isni.org/isni/0000000109416043>;
-    schema:license "https://creativecommons.org/licenses/by-nc/4.0/"^^xsd:anyURI;
-    dcat:distribution <fournaise_S1_S6_AR_05816_06516_ext7.5m/DownloadFile>;
-.
-    <fournaise_S1_S6_AR_05816_06516_ext7.5m/DownloadFile> a dcat:Distribution;
-        dct:identifier "fournaise_S1_S6_AR_05816_06516_ext7.5m/DownloadFile";
-        dct:description "The way to download the OI2 product : fournaise_S1_S6_AR_05816_06516_ext7.5m";
-        dct:issued "2017-06-21"^^xsd:dateTime;
-        dct:type "http://publications.europa.eu/mdr/resource/authority/distribution-type/html/distribution-types/DOWNLOADABLE_FILE"^^xsd:anyURI;
-        dcat:accessURL <wwwobs.univ-bpclermont.fr/casoar/data-download>;
-        dcat:downloadURL "https://wwwobs.univ-bpclermont.fr/casoar/export/download.php?type=SentInterf&uri=fournaise_S1_S6_AR_05816_06516_ext7.5m"^^xsd:anyURI;
-        dct:conformsTo <wwwobs.univ-bpclermont.fr/casoar>;
-        dct:format "http://publications.europa.eu/mdr/resource/authority/file-type/ZIP"^^xsd:anyURI;
-.
-
-<#VolcanoObservations> a skos:ConceptScheme;
-        dct:title "Volcano-Observations";
-        dct:description "It contains the concept of Volcanological observations";
-.
-    <#RadarInterferometry> a skos:Concept;
-        skos:inScheme <#VolcanoObservations>;
-        skos:prefLabel "Radar Interferometry";
+    #dcat:contactPoint <http://www.researcherid.com/rid/O-8042-2014/contactPoint>;
+    #dct:publisher <http://isni.org/isni/0000000109416043>;
+    #dcat:distribution <https://www.epos-eu.org/epos-dcat-ap/VolcanoObservations/Dataset/050/Distribution/DataDownload>;
+    #dcat:distribution <https://www.epos-eu.org/epos-dcat-ap/VolcanoObservations/Dataset/050/Distribution/DataCatalog>;
 .
