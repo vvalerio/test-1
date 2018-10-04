@@ -1,9 +1,11 @@
 https://raw.githubusercontent.com/epos-eu/EPOS-DCAT-AP/EPOS-DCAT-AP-shapes/examples/WP08/WP08-INGV_Event_ws.ttl
 https://raw.githubusercontent.com/epos-eu/EPOS-DCAT-AP/EPOS-DCAT-AP-shapes/examples/WP08/WP08-INGV_Dataselect_station_ws.ttl
+
 https://raw.githubusercontent.com/epos-eu/EPOS-DCAT-AP/EPOS-DCAT-AP-shapes/examples/WP17/WP17_EnvironmentalMonitoring_Fylde-gw_complete.ttl
 https://raw.githubusercontent.com/epos-eu/EPOS-DCAT-AP/EPOS-DCAT-AP-shapes/examples/WP17/WP17_EnvironmentalMonitoring_VoP-gw_complete.ttl
 https://github.com/epos-eu/EPOS-DCAT-AP/raw/EPOS-DCAT-AP-shapes/examples/WP17/WP17_GrossShonebeckHydraulicData_complete.ttl
 https://github.com/epos-eu/EPOS-DCAT-AP/raw/EPOS-DCAT-AP-shapes/examples/WP17/WP17_KetzinBackProduction_complete.ttl
+https://github.com/epos-eu/EPOS-DCAT-AP/raw/EPOS-DCAT-AP-shapes/examples/WP17/WP17_KetzinBrineInjection_complete.ttl
 https://github.com/epos-eu/EPOS-DCAT-AP/raw/EPOS-DCAT-AP-shapes/examples/WP11/WP11_GNSS_stations_corrected_DDSS067.ttl
 https://github.com/epos-eu/EPOS-DCAT-AP/raw/EPOS-DCAT-AP-shapes/examples/WP11/WP11_GNSS_stations_data_corrected_DDSS003.ttl
 https://github.com/epos-eu/EPOS-DCAT-AP/raw/EPOS-DCAT-AP-shapes/examples/WP11/WP11_GNSS_stations_marker_corrected_DDSS067.ttl
