@@ -16,6 +16,47 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix gsp: <http://www.opengis.net/ont/geosparql#> .
 
+<https://www.epos-eu.org/epos-dcat-ap/Seismology/Dataset/001> a dcat:Dataset ;
+        dct:identifier "https://www.epos-eu.org/epos-dcat-ap/Seismology/Dataset/001" ;
+        dct:title "Primary Seismic Waveform Data" ;
+        dct:description "Continuous seismic waveforms" ;
+        adms:identifier [ a adms:Identifier ;
+            adms:schemaAgency "DDSS-ID" ;
+            skos:notation "WP8-DDSS-001" ;
+
+        ];
+        dct:created "2016-01-01T00:00:00Z"^^xsd:dateTime ;
+        dct:issued "2016-01-01T00:00:00Z"^^xsd:dateTime ;
+        dct:modified "2016-01-01T00:00:00Z"^^xsd:dateTime ;
+        owl:versionInfo "1.0.0" ;
+
+        # This property refers to the type of the Dataset. 
+        # Example of frequency using a controlled vocabulary http://dublincore.org/2012/06/14/dctype
+	dct:type "http://purl.org/dc/dcmitype/Collection"^^xsd:anyURI ;
+
+        # This property refers to the frequency at which the Dataset is updated.
+        # The possible types are here: http://purl.org/cld/freq/
+        dct:accrualPeriodicity "http://purl.org/cld/freq/continuous"^^xsd:anyURI ;
+
+        # This property refers to a category of the Dataset. A Dataset may be associated with multiple themes.
+        dcat:theme  <epos:SeismicWaveform> ;
+
+        dcat:keyword "seismic waveform","continuous waveform" ,"mseed" ;
+        
+        # This property refers to a geographic region that is covered by the Dataset.
+        dct:spatial [ a dct:Location ;
+          locn:geometry "POLYGON(180.0 -90.0, -180.0 -90.0, -180.0 90.0, 180.0 90.0, 180.0 -90.0)"^^gsp:wktLiteral ;
+        ];
+
+        # This property refers to a temporal period that the Dataset covers.
+        dct:temporal [ a dct:PeriodOfTime ;
+                schema:startDate "1988-01-01T00:00:00Z"^^xsd:dateTime ;
+                #schema:endDate "YYYY-MM-DDThh:mm:ssZ"^^xsd:dateTime ;
+        ] ;
+
+.
+
+
 <https://www.epos-eu.org/epos-dcat-ap/VolcanoObservations/Dataset/050> a dcat:Dataset;
     adms:identifier [ a adms:Identifier ;
             adms:schemaAgency "DDSS-ID" ;
