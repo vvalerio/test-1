@@ -18,3 +18,4 @@ https://github.com/epos-eu/EPOS-DCAT-AP/raw/EPOS-DCAT-AP-shapes/examples/WP11/OP
 https://github.com/epos-eu/EPOS-DCAT-AP/raw/EPOS-DCAT-AP-shapes/examples/WP11/OPGC_WP11-DDSS-036_DYNVOLC_NEW.ttl
 https://github.com/epos-eu/EPOS-DCAT-AP/raw/EPOS-DCAT-AP-shapes/examples/WP11/OPGC_WP11-DDSS-024_VOLDORAD_NEW.ttl
 https://raw.githubusercontent.com/epos-eu/EPOS-DCAT-AP/EPOS-DCAT-AP-shapes/examples/WP11/OPGC_WP11-DDSS-049_HOTVOLC_new.ttl
+https://raw.githubusercontent.com/epos-eu/EPOS-DCAT-AP/EPOS-DCAT-AP-shapes/examples/WP11/OPGC_WP11-DDSS-050_OI2_new.ttl
