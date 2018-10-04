@@ -1,15 +1,15 @@
-@prefix adms: <http://www.w3.org/nd/adms#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix epos: <https://www.epos-eu.org/epos-dcat-ap#> .  
-@prefix dc: <http://purl.org/dc/elements/1.1/> .  
-@prefix dct: <http://purl.org/dc/terms/> .  
-@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .  
-@prefix hydra: <http://www.w3.org/ns/hydra/core#> .  
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .    
-@prefix schema: <http://schema.org/> .  
-@prefix dcat: <http://www.w3.org/ns/dcat#> .  
-@prefix cnt: <http://www.w3.org/2011/content#> .   
-@prefix locn: <http://www.w3.org/ns/locn#> . 
+@prefix epos: <https://www.epos-eu.org/epos-dcat-ap#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix hydra: <http://www.w3.org/ns/hydra/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix http: <http://www.w3.org/2006/http#> .
@@ -20,83 +20,10 @@
         dct:identifier "https://www.epos-eu.org/epos-dcat-ap/Seismology/Dataset/001" ;
         dct:title "Primary Seismic Waveform Data" ;
         dct:description "Continuous seismic waveforms" ;
-        adms:identifier [ a adms:Identifier ;
+        
+	adms:identifier [ a adms:Identifier ;
             adms:schemaAgency "DDSS-ID" ;
             skos:notation "WP8-DDSS-001" ;
 
         ];
-        dct:created "2016-01-01T00:00:00Z"^^xsd:dateTime ;
-        dct:issued "2016-01-01T00:00:00Z"^^xsd:dateTime ;
-        dct:modified "2016-01-01T00:00:00Z"^^xsd:dateTime ;
-        owl:versionInfo "1.0.0" ;
-
-        # This property refers to the type of the Dataset. 
-        # Example of frequency using a controlled vocabulary http://dublincore.org/2012/06/14/dctype
-	dct:type "http://purl.org/dc/dcmitype/Collection"^^xsd:anyURI ;
-
-        # This property refers to the frequency at which the Dataset is updated.
-        # The possible types are here: http://purl.org/cld/freq/
-        dct:accrualPeriodicity "http://purl.org/cld/freq/continuous"^^xsd:anyURI ;
-
-        # This property refers to a category of the Dataset. A Dataset may be associated with multiple themes.
-        dcat:theme  <epos:RadarInterferometry> ;
-
-        dcat:keyword "seismic waveform","continuous waveform" ,"mseed" ;
-        
-        # This property refers to a geographic region that is covered by the Dataset.
-        dct:spatial [ a dct:Location ;
-          locn:geometry "POLYGON(180.0 -90.0, -180.0 -90.0, -180.0 90.0, 180.0 90.0, 180.0 -90.0)"^^gsp:wktLiteral ;
-        ];
-
-        # This property refers to a temporal period that the Dataset covers.
-        dct:temporal [ a dct:PeriodOfTime ;
-                schema:startDate "1988-01-01T00:00:00Z"^^xsd:dateTime ;
-                #schema:endDate "YYYY-MM-DDThh:mm:ssZ"^^xsd:dateTime ;
-        ] ;
-
-.
-
-
-<https://www.epos-eu.org/epos-dcat-ap/VolcanoObservations/Dataset/050> a dcat:Dataset;
-    adms:identifier [ a adms:Identifier ;
-            adms:schemaAgency "DDSS-ID" ;
-            skos:notation "WP11-DDSS-050";
-    ];
-    dct:title "InSar Observatory of Indian Ocean - Wrapped Differential Interferograms"^^xsd:string;
-    dct:identifier "https://www.epos-eu.org/epos-dcat-ap/VolcanoObservations/Dataset/050";
-    dct:description "A Wrapped Differential Interferogram made using data from SENTINEL Satellite";
-    dct:type "http://purl.org/dc/dcmitype/Image"^^xsd:anyURI;
-    dct:accrualPeriodicity "http://purl.org/cld/freq/irregular"^^xsd:anyURI;
-    dct:temporal [ a dct:PeriodOfTime;
-        schema:startDate "2016-01-14T14:52:44Z"^^xsd:dateTime;
-        schema:endDate "2016-02-19T14:53:07Z"^^xsd:dateTime;
-    ];
-    dct:issued "2017-06-21"^^xsd:dateTime;
-    dct:modified "2017-06-21"^^xsd:dateTime;
-    dct:spatial [ a dct:Location;
-        locn:geometry "POLYGON(55.622471 -21.182913, 55.82473 -21.184441, 55.823513 -21.338009, 55.62104 -21.33647)"^^gsp:wktLiteral;
-    ];
-    dcat:theme <epos:RadarInterferometry>;
-    dcat:keyword "radar", "interferometry", "Reunion", "Piton de la Fournaise", "deformation", "SENTINEL", "COSMOSKYMED", "ALOS-PALSAR";
-    dcat:contactPoint <http://www.researcherid.com/rid/O-8042-2014/contactPoint>;
-    #dct:publisher <http://isni.org/isni/0000000109416043>;
-    #dcat:distribution <https://www.epos-eu.org/epos-dcat-ap/VolcanoObservations/Dataset/050/Distribution/DataDownload>;
-    #dcat:distribution <https://www.epos-eu.org/epos-dcat-ap/VolcanoObservations/Dataset/050/Distribution/DataCatalog>;
-.
-
-<http://www.researcherid.com/rid/O-8042-2014/contactPoint> a schema:ContactPoint;
-        schema:email "j.l.froger@opgc.fr";
-        schema:availableLanguage "en", "fr";
-        schema:contactType "manager";
-.
-
-<epos:VolcanoObservations> a skos:ConceptScheme;
-        dct:title "Volcano-Observations";
-        dct:description "It contains the concept of Volcanological observations";
-.
-
-<epos:RadarInterferometry> a skos:Concept;
-        skos:inScheme <epos:VolcanoObservations>;
-        skos:prefLabel "Radar Interferometry";
-	skos:definition "Radar Interferometry";
 .
